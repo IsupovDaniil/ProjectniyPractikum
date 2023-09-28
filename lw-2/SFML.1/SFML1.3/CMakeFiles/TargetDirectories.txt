@@ -1,0 +1,3 @@
+D:/1/ProjectPractikum/lw-2/SFML.1/SFML1.3/CMakeFiles/SFML1.3.dir
+D:/1/ProjectPractikum/lw-2/SFML.1/SFML1.3/CMakeFiles/edit_cache.dir
+D:/1/ProjectPractikum/lw-2/SFML.1/SFML1.3/CMakeFiles/rebuild_cache.dir
