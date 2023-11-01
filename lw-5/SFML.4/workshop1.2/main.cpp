@@ -1,6 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include <cmath>
 #include <iostream>
+#include <algorithm>
 
 void initArrow(sf::ConvexShape &arrow)
 {

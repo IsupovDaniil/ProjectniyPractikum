@@ -88,9 +88,7 @@ int main()
 
     sf::ContextSettings settings;
     settings.antialiasingLevel = 8;
-    sf::RenderWindow window(
-        sf::VideoMode({WINDOW_WIDTH, WINDOW_HEIGHT}),
-        "Pointer follows mouse", sf::Style::Default, settings);
+    sf::RenderWindow window(sf::VideoMode({WINDOW_WIDTH, WINDOW_HEIGHT}), "Pointer follows mouse", sf::Style::Default, settings);
 
     sf::ConvexShape pointer;
     sf::Vector2f mousePosition;

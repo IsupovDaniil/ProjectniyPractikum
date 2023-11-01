@@ -1,8 +1,6 @@
 #include <SFML/Graphics.hpp>
 #include <cmath>
 
-using namespace std;
-
 struct Arrow
 {
     sf::ConvexShape head;
@@ -33,7 +31,6 @@ void updateArrowElements(Arrow &arrow)
     arrow.stem.setRotation(toDegrees(arrow.rotation));
 }
 
-// Инициализирует фигуру-стрелку
 void initArrow(Arrow &arrow)
 {
     arrow.position = {400, 300};
@@ -97,9 +94,7 @@ int main()
 
     sf::ContextSettings settings;
     settings.antialiasingLevel = 8;
-    sf::RenderWindow window(
-        sf::VideoMode({WINDOW_WIDTH, WINDOW_HEIGHT}),
-        "Arrow follows mouse", sf::Style::Default, settings);
+    sf::RenderWindow window(sf::VideoMode({WINDOW_WIDTH, WINDOW_HEIGHT}), "Arrow follows mouse", sf::Style::Default, settings);
 
     Arrow arrow;
     sf::Vector2f mousePosition;

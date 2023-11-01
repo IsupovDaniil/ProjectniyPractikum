@@ -57,7 +57,6 @@ void update(const sf::Vector2f &mousePosition, sf::Sprite &player, sf::Clock &cl
     updatePosition(mousePosition, player, dt);
 }
 
-// Рисует и выводит один кадр
 void redrawFrame(sf::RenderWindow &window, sf::Sprite &player)
 {
     window.clear(sf::Color::White);
@@ -65,7 +64,6 @@ void redrawFrame(sf::RenderWindow &window, sf::Sprite &player)
     window.display();
 }
 
-// Программа рисует в окне стрелку, которая поворачивается вслед за курсором мыши.
 int main()
 {
     constexpr unsigned WINDOW_WIDTH = 900;
